@@ -58,7 +58,7 @@ function MainPage({ onSignOut }) {
     return () => {
       unsubscribe();
     };
-  }, []);
+  }, [db]);
 
 
   // To update user(transaction) data in main-page(for Recent Transactions)
@@ -92,7 +92,7 @@ function MainPage({ onSignOut }) {
     return () => {
       unsubscribe();
     };
-  }, []);
+  }, [db]);
 
 
   // Called when 'Explore all transactions' is clicked and it fetches all the transactions data from database and displays it in main-page
@@ -165,7 +165,7 @@ function MainPage({ onSignOut }) {
     return () => {
       unsubscribe();
     };
-  }, []);
+  }, [db]);
 
 
 
@@ -256,7 +256,7 @@ function MainPage({ onSignOut }) {
     return () => {
       unsubscribe();
     };
-  }, []);
+  }, [db]);
 
 
   //Displays user's email
