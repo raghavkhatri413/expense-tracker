@@ -366,9 +366,6 @@ function MainPage({ onSignOut }) {
             <button onClick={openExpenseForm}>- Add Expense</button>
           </div>
         </div>
-        <footer className="footer">
-          <p>&copy; 2024 Raghav Khatri.</p>
-        </footer>
       </div>
 
       {isIncomeFormOpen && (
