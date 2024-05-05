@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../firebase";
-import { getDatabase, ref, push, set } from "firebase/database";
+import { getDatabase, ref, set } from "firebase/database";
 import "./SignUp.css"
 import app from "../../firebase";
 
