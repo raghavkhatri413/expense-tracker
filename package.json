@@ -45,6 +45,8 @@
     ]
   },
   "devDependencies": {
+    "babel-preset-react-app": "",
+    "@babel/plugin-proposal-private-property-in-object": "",
     "gh-pages": "^6.1.1"
   }
 }
