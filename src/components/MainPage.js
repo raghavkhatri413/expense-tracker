@@ -326,6 +326,12 @@ function MainPage({ onSignOut }) {
           <button onClick={openAllTransactions}>Explore All Transactions</button>
         </div>)}
 
+      <footer>
+        <div class="copyright">
+          <p>&copy; 2024 Raghav Khatri. All rights reserved.</p>
+        </div>
+      </footer>
+
       {isAllTransactionsOpen && (
         <div className="popup popup-above">
           <div className="popup-content">
